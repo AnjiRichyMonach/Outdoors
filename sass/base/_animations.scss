@@ -1,0 +1,24 @@
+///////////////////////////////////
+// Animation
+
+@keyframes leftToRight {
+  0% {
+transform: translateX(-50rem);
+  }
+
+  100% {
+    transform: translateX(0);
+
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(50rem);
+  }
+
+  100% {
+    transform: translateX(0);
+
+  }
+}
