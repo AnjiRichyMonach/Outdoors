@@ -43,3 +43,33 @@ position: relative;
 
   }
 }
+
+// button text
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-top: 3rem;
+    text-decoration: none;
+    padding: .3rem;
+    border-bottom: 1px solid currentColor;
+    color: $color-secondary;
+    transition: all .2s;
+  }
+
+  &:hover {
+    background: $color-secondary;
+    color: white;
+    transform: scale(1.02) translateY(-.3rem);
+    box-shadow: $box-shadow-light;
+    border: none;
+  }
+
+  &:active {
+    transform: scale(1.02) translateY(-.1rem);
+  }
+
+
+}
