@@ -11,7 +11,7 @@ body {
 .section-about {
   background: $color-background;
   margin-top: -13rem;
-  padding: 25rem 3rem 15rem;
+  padding: 25rem 3rem 20rem;
 }
 
 .details {
@@ -68,4 +68,34 @@ body {
       left: 20%;
     }
   }
+}
+
+.section-features {
+  background: linear-gradient(to right, rgba($color-secondary-light, .7), rgba($color-secondary-dark, .7)), url("../img/nat-4.jpg") center/cover;
+  transform: skewY(-5deg);
+  margin-top: -6rem;
+  padding: 20rem 0 15rem;
+}
+
+.section-tours {
+  background: $color-background;
+  margin-top: -6rem;
+  padding: 20rem 0 15rem;
+}
+
+.section-stories {
+  background: rgba(#fff, .9);
+  padding: 15rem 0;
+  position: relative;
+
+}
+
+.signup-section {
+  padding: 15rem 0;
+  background: linear-gradient(to right bottom, rgba($color-secondary-light, .9), rgba($color-secondary-dark, .9));
+}
+
+.footer {
+  padding: 10rem 8rem;
+  background: #3e3e3e;
 }

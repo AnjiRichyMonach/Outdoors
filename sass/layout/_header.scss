@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(to right, rgba($color-secondary-light, .7), rgba($color-secondary-dark, .7)), url("../img/hero.jpg") center/cover;
+  background: linear-gradient(to right, rgba($color-secondary-light, .7), rgba($color-secondary-dark, .7)), url("../img/hero.jpg") center/cover fixed;
   height: 95vh;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   display: flex;
