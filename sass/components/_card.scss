@@ -7,6 +7,12 @@
   grid-row-gap: 3rem;
   align-items: start;
   overflow: hidden;
+
+  @media only screen and (max-width: $bp-3) {
+    grid-template-columns: minmax(min-content,40rem);
+    justify-content: center;
+  }
+
 }
 
 .card {

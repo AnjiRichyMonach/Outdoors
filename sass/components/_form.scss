@@ -2,8 +2,22 @@
   background: linear-gradient(105deg, rgba(#fff,.8) 0%,rgba(#fff,.8) 50%,transparent 50%), url("../img/nat-10.jpg");
   padding: 6rem;
 
+  @media only screen and (max-width: $bp-4) {
+    background: linear-gradient(105deg, rgba(#fff,.8) ,rgba(#fff,.8));
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: $bp-4) {
+    max-width: 80%;
+  }
+
   &__form {
     width: 50%;
+
+    @media only screen and (max-width: $bp-4) {
+      width: 100%;
+    }
   }
 
   &__heading {
@@ -27,6 +41,9 @@
     border-bottom: .3rem solid transparent;
     transition: all .3s;
 
+    @media only screen and (max-width: $bp-4) {
+      width: 100%;
+    }
 
     //margin-bottom: 2rem;
 
@@ -80,6 +97,13 @@
     &--label {
       display: flex;
       color: #7c7c7c;
+
+      @media only screen and (max-width: $bp-7) {
+        &:first-of-type {
+          margin-bottom: 1.5rem;
+        }
+      }
+
     }
 
     &--input {
@@ -131,4 +155,12 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
+
+  @media only screen and (max-width: $bp-4) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: $bp-7) {
+    flex-direction: column;
+  }
 }

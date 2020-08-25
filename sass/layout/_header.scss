@@ -13,12 +13,23 @@
     justify-content: center;
     margin-bottom: 10rem;
 
+
     &-1 {
       display: block;
       font: 300 6rem Lato;
       letter-spacing: 3rem;
       margin-bottom: 2.5rem;
       animation: leftToRight 2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+      @media only screen and (max-width: $bp-5) {
+        font-size: 4rem;
+      }
+
+      @media only screen and (max-width: $bp-6) {
+        font-size: 2.5rem;
+        letter-spacing: 1.5rem;
+      }
+
     }
 
     &-2 {
@@ -26,6 +37,16 @@
       letter-spacing: 1.22rem;
       font: 600 3rem lato;
       animation: rightToLeft 2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+      @media only screen and (max-width: $bp-5) {
+        font-size: 1.9rem;
+      }
+
+      @media only screen and (max-width: $bp-6) {
+        font-size: 1.6rem;
+        letter-spacing: .41rem;
+        font-weight: 400;
+      }
     }
 
   }
