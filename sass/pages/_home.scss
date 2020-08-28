@@ -130,6 +130,10 @@ body {
   @media only screen and (max-width: $bp-6) {
     padding: 5rem 0 5rem;
   }
+
+  @media only screen and (max-width: $bp-7) {
+    margin-top: -13rem;
+  }
 }
 
 .section-tours {

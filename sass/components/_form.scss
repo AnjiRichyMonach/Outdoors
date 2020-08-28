@@ -70,14 +70,7 @@
     opacity: 0;
     transform: translateY(-4.4rem);
   }
-
-  &__name {
-  }
-
-  &__email {
-
-  }
-
+  
   &__label {
     margin-left: 2.5rem;
     font-size: 2rem;
@@ -97,6 +90,7 @@
     &--label {
       display: flex;
       color: #7c7c7c;
+      cursor: pointer;
 
       @media only screen and (max-width: $bp-7) {
         &:first-of-type {
